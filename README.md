@@ -1,4 +1,4 @@
-#SLMGAE
+# SLMGAE
 ##### Requirements
 1. Python == 3.6
 2. Tensorflow == 1.1.13
