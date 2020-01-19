@@ -1,1 +1,2 @@
 Human_GOsim.txt filter=lfs diff=lfs merge=lfs -text
+Human_GOsim_CC.txt filter=lfs diff=lfs merge=lfs -text
