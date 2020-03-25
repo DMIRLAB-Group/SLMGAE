@@ -19,13 +19,10 @@ def pr_curve(y_label, y_score):
         fps.append(fp)
         tps.append(tp)
 
-    precision, recall = [1], [0]
+    precision, recall = [], []
     for f, t in zip(fps, tps):
         precision.append(t / (t + f))
         recall.append(t / tps[-1])
-
-    precision.append(0)
-    recall.append(1)
 
     return precision, recall
 

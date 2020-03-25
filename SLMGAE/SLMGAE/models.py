@@ -4,7 +4,7 @@ flags = tf.app.flags
 FLAGS = flags.FLAGS
 
 
-class SAMGAE():
+class SLMGAE():
     def __init__(self, placeholders, num_features, features_nonzero, num_nodes, num_supView, name):
         self.name = name
         self.num_nodes = num_nodes
